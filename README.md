@@ -4,7 +4,7 @@ Hello. Want to get started with Flask quickly? Good. You came to the right place
 
 ### Docker quickstart
 
-`docker build -t "flask-boilerplate" .` then `docker run -d flask-boilerplate`
+`docker build -t "flask-boilerplate" .` then `docker run -d flask-boilerplate` (`docker run -e VIRTUAL_HOST=sub.domain.tld -d flask-boilerplate`)
 
 <hr>
 
